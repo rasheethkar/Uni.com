@@ -76,7 +76,7 @@ nav ul a:hover{
 }
 .form p{
     color: white;
-    font-size: .5rem;
+    font-size: .7rem;
     padding: 10px 0;
 }
 .form h1{
@@ -86,10 +86,11 @@ nav ul a:hover{
 }
 .form .input-box input{
     padding: 10px 15px;
-    border: 3rem;
+    border-radius: 3rem;
     font-size: .7rem;
     font-weight: bold;
     opacity: .5;
+    margin-top: 20px;
 }
 .form .sec{
     margin-top: 20px;
@@ -110,4 +111,25 @@ nav ul a:hover{
     padding: 10px 15px;
     border-radius: 3rem;
     margin-top: 20px;
+}
+.form button a{
+    text-decoration: none;
+    font-size:1rem;
+    font-weight: bold;
+    color: black;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info label{
+    font-size: .7rem;
+    font-weight: bold;
+    color: white;
+}
+.info p{
+    font-size: .7rem;
+    font-weight: bold;
+    color: white;
 }
